@@ -3,13 +3,50 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/second/second",
+			"style": {
+				"navigationBarTitleText": "二手车"
+			}
+		},
+		{
+			"path": "pages/sellcar/sellcar",
+			"style": {
+				"navigationBarTitleText": "卖车"
 			}
 		}
 	],
-	"globalStyle": {
+	"tabBar": {
+	        "list": [{
+	                "text": "首页",
+	                "pagePath": "pages/index/index",
+	                "iconPath": "./static/icons/shouye1.png",
+	                "selectedIconPath": "./static/icons/shouye.png"
+	            },
+	            {
+	                "text": "二手车",
+	                "pagePath": "pages/second/second",
+	                "iconPath": "./static/icons/31liebiao1.png",
+	                "selectedIconPath": "./static/icons/31liebiao.png"
+	            },
+	            {
+	                "text": "卖车",
+	                "pagePath": "pages/sellcar/sellcar",
+	                "iconPath": "./static/icons/gerenzhongxin1.png",
+	                "selectedIconPath": "./static/icons/gerenzhongxin.png"
+	            }
+	        ],
+	        "position": "bottom",
+	        "borderStyle": "white",
+	        "backgroundColor": "#fff",
+	        "color": "#333",
+	        "selectedColor": "#01cd74"
+	    },
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "腾发",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
