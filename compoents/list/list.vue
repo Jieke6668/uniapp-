@@ -20,17 +20,30 @@
 		defineProps
 	} from "vue";
 	const props = defineProps(["content"]);
-
-	const details = (e)=>{
-		wx.navigateTo({
-			url: '/pages/details/details',
-			success: res => {
-				// 通过 eventChannel 向被打开页面传送数据
-				res.eventChannel.emit('id', e.currentTarget.dataset.id)
+     
+	 const details = (e)=>{
+		 console.log(e);
+		 uni.navigateTo({
+		 	url:"/pages/details/details",
+			success(res) {
+            
 			}
-		})
-		// console.log(e.currentTarget.dataset.id);
-	}
+		 })
+	 }
+	 
+	// const details = (e) => {
+	// 	uni.navigateTo({
+	// 		url: '/pages/details/details',
+	// 		console.log(e)
+	// 		success(res) {
+	// 			res.eventChannel.emit("hello", {
+	// 				a: 10,
+	// 				b: 20
+	// 			})
+	// 		}
+			
+	// 	})
+	// }
 </script>
 
 <style scoped>

@@ -1,0 +1,140 @@
+
+.search[data-v-b8dd0cec] {
+		display: flex;
+		width: 21.875rem;
+		margin: 0 auto;
+		margin-top: 0.3125rem;
+}
+.search-img[data-v-b8dd0cec] {
+		width: 1.5625rem;
+		height: 1.5625rem;
+}
+.search-text[data-v-b8dd0cec] {
+		margin-left: 0.625rem;
+		font-size: 14px;
+}
+.search-input[data-v-b8dd0cec] {
+		margin-left: 1.5625rem;
+}
+.inputs[data-v-b8dd0cec] {
+		width: 12.5rem;
+		height: 1.5625rem;
+		border: 1px solid black;
+		border-radius: 0.78125rem;
+		position: relative;
+		padding-left: 2.1875rem;
+		font-size: 13px;
+}
+.input-img[data-v-b8dd0cec] {
+		position: absolute;
+		width: 1.5625rem;
+		height: 1.5625rem;
+		top: 0.03125rem;
+		margin-left: 0.3125rem;
+}
+
+
+.contentbox[data-v-d124e7ac] {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+}
+.content[data-v-d124e7ac] {
+		width: 49%;
+		border-radius: 0.46875rem;
+		overflow: hidden;
+		background-color: rgb(246, 247, 246);
+		margin-bottom: 0.3125rem;
+}
+.content .contentimg[data-v-d124e7ac] {
+		width: 100%;
+		height: 7.8125rem;
+}
+.carname[data-v-d124e7ac] {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		font-weight: 600;
+}
+.deploybox[data-v-d124e7ac] {
+		padding: 0.46875rem;
+}
+.deploy[data-v-d124e7ac] {
+		margin: 0.3125rem 0;
+		font-size: 0.75rem;
+		color: rgb(182, 187, 182);
+		display: flex;
+}
+.gang[data-v-d124e7ac] {
+		margin: 0 0.15625rem;
+}
+.price[data-v-d124e7ac] {
+		color: red;
+		font-weight: 600;
+}
+
+
+.classify[data-v-80faf974] {
+		margin: 0.9375rem 0;
+}
+.classify-box[data-v-80faf974] {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		position: relative;
+		z-index: 10;
+}
+.clincd_er[data-v-80faf974] {
+		position: absolute;
+		top: 0;
+}
+.clincd_txt[data-v-80faf974] {
+		margin: 0.3125rem;
+}
+.brand_c[data-v-80faf974] {
+		display: flex;
+}
+.classify-img[data-v-80faf974] {
+		width: 1.25rem;
+		height: 1.25rem;
+}
+.classify_text[data-v-80faf974] {
+		font-size: 14px;
+}
+.classify[data-v-80faf974] {
+		display: flex;
+		justify-content: space-around;
+}
+.classify_price[data-v-80faf974] {
+		width: 6.875rem;
+		background-color: white;
+		position: absolute;
+		top: 1.25rem;
+		text-align: center;
+		font-size: 14px;
+		z-index:10;
+}
+.price[data-v-80faf974] {
+		margin: 0.46875rem;
+		display: flex;
+}
+.vehcle[data-v-80faf974] {
+		width: 1.5625rem;
+		height: 1.5625rem;
+}
+.classify-clincd[data-v-80faf974] {
+		width: 11.5625rem;
+		height: 12.5rem;
+		position: absolute;
+		top: 1.5625rem;
+		background-color: white;
+		overflow: auto;
+}
+.brand[data-v-80faf974] {
+		display: flex;
+		padding: 0.3125rem;
+}
+.brand_img[data-v-80faf974] {
+		width: 1.5625rem;
+		height: 1.5625rem;
+}

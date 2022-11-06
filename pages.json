@@ -17,8 +17,14 @@
 			"style": {
 				"navigationBarTitleText": "卖车"
 			}
+		},
+		{
+			"path": "pages/area/area",
+			"style": {
+				"navigationBarTitleText": "地区"
+			}
 		}
-	],
+    ],
 	"tabBar": {
 	        "list": [{
 	                "text": "首页",

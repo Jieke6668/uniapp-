@@ -5,12 +5,12 @@
 			<view class="more">查看更多</view>
 		</view>
 		<!-- 列表组件 -->
-		<List :content="content"></List>
+		<!-- <List :content="content"></List> -->
 	</view>
 </template>
 
 <script setup>
-	import List from "@/componet/List/List.vue";
+	// import List from "@/componet/List/List.vue";
 
 	import {
 		getList

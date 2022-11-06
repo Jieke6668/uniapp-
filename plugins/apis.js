@@ -34,7 +34,7 @@ export function area(obj) {
 //搜索接口
 export function seach(obj) {
 	return axios({
-		url: baseUrl + "/api/tfcar/car/list",
+		url: baseUrl + "/list",
 		data: {
 			...obj
 		}
