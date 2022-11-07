@@ -22,12 +22,8 @@
 	const props = defineProps(["content"]);
      
 	 const details = (e)=>{
-		 console.log(e);
 		 uni.navigateTo({
-		 	url:"/pages/details/details",
-			success(res) {
-            
-			}
+		 	url: '/pages/details/details?id=' + e,
 		 })
 	 }
 	 

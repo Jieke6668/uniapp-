@@ -23,6 +23,12 @@
 			"style": {
 				"navigationBarTitleText": "地区"
 			}
+		},
+		{
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
 		}
     ],
 	"tabBar": {

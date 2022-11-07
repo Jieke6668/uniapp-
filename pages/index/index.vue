@@ -5,12 +5,12 @@
 			<view class="more">查看更多</view>
 		</view>
 		<!-- 列表组件 -->
-		<!-- <List :content="content"></List> -->
+		<List :content="content"></List>
 	</view>
 </template>
 
 <script setup>
-	// import List from "@/componet/List/List.vue";
+	import List from "@/compoents/list/list.vue";
 
 	import {
 		getList
@@ -20,9 +20,9 @@
 		ref
 	} from "vue";
 
-	const latitude = ref('')
-	const longitude = ref('')
-	const content = ref([])
+	let latitude = ref('')
+	let longitude = ref('')
+	let content = ref([])
 
 	uni.getLocation({
 		type: 'gcj02',
